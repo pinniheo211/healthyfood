@@ -1,0 +1,201 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    font-family: 'Rubik', sans-serif;
+    width:100%;
+}
+
+.menu-bar{
+    background-image: url('./shopping_img/bg15.jpeg');
+    padding:30px 20px;
+    height:500px;
+    padding:40px 200px;
+
+}
+
+.menu-bar-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+.menu-bar-list::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:1px;
+    background-color:#ccc;
+    bottom:-6px;
+}
+
+.menu-list ul{
+    display:flex;
+    gap: 40px;
+}
+.menu-list li a{
+    color:#000;
+
+}
+
+.title{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.title h1{
+    font-size: 90px;
+    color:#112433;
+}
+
+
+.title p{
+    margin-top:30px;
+    font-size: 20px;
+}
+
+.title p span{
+    margin-left: 40px;
+}
+
+.title p > a{
+    color:#ef8829;
+    position:relative;
+}
+
+.title p > a::before{
+    content: '';
+    position:absolute;
+    padding: 7px ;
+    background-color: #ef8829;
+    border-radius: 100%;
+    right:-30px;
+    bottom:5px;
+}
+
+/* items show */
+
+.items-show{
+    padding:90px 150px;
+}
+
+.showing {
+    text-align:center;
+}
+
+.showing p{
+    color:#6e6e6e;
+
+}
+
+.showing a{
+    padding: 20px 30px;
+    border:1px solid #112433;
+    color:#6e6e6e;
+}
+
+.list-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content:center;
+}
+
+.item{
+    padding:40px 30px;
+    background-color: #f1f6fa;
+    height:auto;
+    border-radius: 20px;
+    text-align: center;
+    width:300px;
+}
+
+.item h3{
+    margin-top:20px;
+}
+
+.item i{
+    margin:30px 0;
+
+    color:#fe6b51;
+}
+
+.nextpage ul{
+    display: flex;
+    justify-content:center;
+    margin-top: 110px;
+    gap:30px;
+
+}
+
+
+.nextpage li{
+    padding: 20px 0;
+    border-radius: 100%;
+    border: 1px solid #ccc;
+}
+
+.nextpage a{
+    color:#9990b8;
+    padding:22px 26px;
+    
+}
+
+.nextpage li:first-child{
+    background-color:#86ba09;
+}
+
+
+.nextpage i{
+    font-size: 15px;
+}
+
+.nextpage li:hover 
+{
+    background-color: #86ba09;
+}
+
+.nextpage li:hover a{
+    color:#fff;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://shtheme.com/demosd/orgafe/wp-content/themes/orgafe/img/bg/bg5.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+#footer .row h2{
+    
+    border-bottom: 2px solid orangered;
+}
+#footer .text{
+    margin-top: 20px;
+    line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+#footer .footer-title{
+    
+    font-family:'Rubik', sans-serif ;
+}
+
+
